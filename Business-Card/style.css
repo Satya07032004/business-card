@@ -1,0 +1,42 @@
+body {
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-image {
+  width: 150px;
+  margin-right: 3px;
+}
+
+.card-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background: #ddebf8;
+  color: #2b2839;
+  font-weight: bold;
+  box-shadow: 3px 3px 12px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.blue-border {
+  border-bottom: 8px solid #d8cefe;
+  /* padding: 20px; */
+}
+
+.text {
+  text-align: center;
+}
+
+p {
+  font-weight: normal;
+}
+
+.card-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
